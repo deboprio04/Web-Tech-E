@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+ul,ol{
+	list-style: none;
+}
+a,a:hover{
+	text-align: center;
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: none;
+	vertical-align: middle;
+}
+
+body{
+	font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+	background-color: #019bfd;
+}
+.navbar-brand{
+	color: #fff;
+	padding: 0 0.50rem;
+}
+
+.navbar-brand:hover{
+	background-color: #fff;
+	color: #019bfd;
+	border-radius: 5%;
+}
+.navbar .navbar-nav li a{
+	color: #fff;
+	padding: 0 0.50rem;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item{
+	color:#019bfd !important;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+	color:#FFF !important;
+	background-color: #019bfd;
+}
+
+.navbar-toggler {
+	background-color: #fff;
+}
+
+
+
+.navbar .btn{
+	color: #019bfd;
+	background-color: #fff;
+}
+
+.navbar .btn:hover{
+	background-color: #019bfd;
+	color: #fff;
+}
+
+
+.content{
+	margin: 4%;
+	padding: 4rem 1rem;
+	box-shadow: 0 0 5px 5px rgba(0,0,0, .05);
+}
+.form
+
+.products{
+	background-color: #fff;
+	padding: 0.75rem;
+}
